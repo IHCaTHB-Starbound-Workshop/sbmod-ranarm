@@ -27,16 +27,30 @@ steam://url/CommunityFilePage/
 
 Collection of additions to randomized melee weapon generation.
 
-Currently features 5 broadsword handles by [USER=720151]tealsummernights[/USER], more to come.
+Currently features assorted broadsword pieces by [USER=720151]tealsummernights[/USER], more to come.
 
-[URL='http://community.playstarbound.com/threads/124193/']MEGATHREAD[/URL]
+He and I will be working to make this a successful community mod.
+If you would like to contribute to the mod simply share in the discussion section:
+  -your original assets
+  -identify the weapon and part each represents
+  -have the files in the proper format (refer to vanilla assets)
+  -use the default color schemes so that color swaps work properly (refer to vanilla assets)
+  -give each a unique identifier so we can track attributions easier (something like, IHART-dagger1b)
+-the license you use
+-how you want to be attributed
 
-[[pictures]]
+WHY ARE WE DOING IT THIS WAY
+as it is the upper limit for variations of each part of a weapon can only be set once, because of this lots of little mods will really only run the one that loads last.
+For this reason the best solution is to do it at once. Tealsummer and myself decided to team up to do this, and to open it up to all y'all.
 
-PERMISSIONS: granted per license, gplv3, included in download.
+[URL='http://community.playstarbound.com/threads/124193/']IHARTS MEGATHREAD[/URL]
+
+[ATTACH=full]169455[/ATTACH] [ATTACH=full]169456[/ATTACH] [ATTACH=full]169457[/ATTACH] [ATTACH=full]169458[/ATTACH] [ATTACH=full]169459[/ATTACH] [ATTACH=full]169460[/ATTACH] [ATTACH=full]169461[/ATTACH] [ATTACH=full]169462[/ATTACH] [ATTACH=full]169463[/ATTACH] [ATTACH=full]169464[/ATTACH] [ATTACH=full]169465[/ATTACH] [ATTACH=full]169466[/ATTACH]
+
+PERMISSIONS: granted per cc license, included in download, see attribution file for credits to specific assets.
 
 ###########
 #megathread
 ###########
 
-Randomized Melee Armory () [URL='http://steamcommunity.com/sharedfiles/filedetails/?id=']steam[/URL] | [URL='http://community.playstarbound.com/resources//']forum[/URL] | [URL='https://github.com/IsaacHart/sbmod-ranarm/releases']github[/URL] | [URL='https://github.com/IsaacHart/sbmod-ranarm/releases/download/0.1/sbmod-ranarm-0.1.pak']direct[/URL]
+Broadsword in the Broadstone (0.1) [URL='http://steamcommunity.com/sharedfiles/filedetails/?id=']steam[/URL] | [URL='http://community.playstarbound.com/resources/4326/']forum[/URL] | [URL='https://github.com/IsaacHart/sbmod-ranarm/releases']github[/URL] | [URL='https://github.com/IsaacHart/sbmod-ranarm/releases/download/0.1/sbmod-ranarm-0.1.pak']direct[/URL]
