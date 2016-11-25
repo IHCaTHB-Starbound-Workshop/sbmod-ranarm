@@ -2,11 +2,11 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/handle/variants",
-    "value": 12
+    "value": 12//whf
   },
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/crown/variants",
-    "value": 17
+    "value": 17//wcf
   }
 ]
