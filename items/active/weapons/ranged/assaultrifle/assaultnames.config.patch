@@ -1,5 +1,9 @@
 [
   {
+    "op": "test",
+    "path": "/nameGen/1/1/3"
+  },
+  {
     "op": "add",
     "path": "/nameGen/1/1/-",
     "value": "Ranarm Inc. "

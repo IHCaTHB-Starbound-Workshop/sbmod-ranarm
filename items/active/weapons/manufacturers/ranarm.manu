@@ -1,5 +1,5 @@
 {
-  // TManufacturers touch integration
+  // Manufacturers Touch integration
 
   "manufacturerName" : "ranarm",
   "friendlyName" : "Ranarm Inc.",
@@ -8,7 +8,8 @@
   "meleePalette" : "/items/active/weapons/colors/melee.weaponcolors",
   
   "prefix" : [
-    "Neat ",
+    "Random ",
+        "Neat ",
 	"Cool ",
 	"Great ",
 	"Amazing! ",
@@ -23,5 +24,10 @@
 	"fire",
 	"ice",
 	"poison"
-  ]
+  ],
+
+  "rangedPrimaryAbility" : {
+  },
+  "meleePrimaryAbility" : {
+  }
 }

@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/ranarm",
+    "value": "/items/active/weapons/manufacturers/ranarm.manu"
+  }
+]
