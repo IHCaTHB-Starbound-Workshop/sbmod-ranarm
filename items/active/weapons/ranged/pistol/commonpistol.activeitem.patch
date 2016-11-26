@@ -14,7 +14,7 @@
   {
     "op": "test",
     "path": "/builderConfig/0/animationParts/barrel/variants",
-    "value": 27
+    "value": 27//snarm
   },
   {
     "op": "replace",
