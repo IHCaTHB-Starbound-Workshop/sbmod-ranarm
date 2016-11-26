@@ -1,0 +1,18 @@
+[[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer"
+  },
+  {
+    "op": "add", 
+    "path": "/builderConfig/0/manufacturer/-",
+    "value": "ranarm"
+  }
+],
+[
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/animationParts/handle/variants",
+    "value": 53//shf
+  }
+]]

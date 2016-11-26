@@ -8,7 +8,7 @@
   "meleePalette" : "/items/active/weapons/colors/melee.weaponcolors",
   
   "prefix" : [
-    "Random ",
+        "Random ",
         "Neat ",
 	"Cool ",
 	"Great ",
