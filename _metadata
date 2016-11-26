@@ -6,7 +6,7 @@ Currently features broadsword (tons), dagger, staff, and wand pieces by tealsumm
 
 For more, or to contribute, follow links from the steam page.",
   "friendlyName" : "Open Armory",
-  "includes" : ["SNARM.IHC","QSARM.IHC","Expanded Weapon Generation","kit_manufacturer"],
+  "includes" : ["SNARM.IHC","QSARM.IHC","QS-MT.IHC","Expanded Weapon Generation","kit_manufacturer"],
   "link" : "steam://url/CommunityFilePage/802382977",
   "name" : "RANARM.IHC",
   "requires" : [],
