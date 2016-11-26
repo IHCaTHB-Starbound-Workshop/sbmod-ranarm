@@ -1,4 +1,4 @@
-[
+[[
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/butt/variants",
@@ -8,10 +8,30 @@
     "op": "replace",
     "path": "/builderConfig/0/animationParts/middle/variants",
     "value": 20//glmf
+  }
+],
+[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/animationParts/barrel/variants",
+    "value": 27
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/animationParts/barrel/variants",
+    "value": 27//glbasnf
+  }
+],
+[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/animationParts/barrel/variants",
+    "inverse": true,
+    "value": 27//glbasnf
   },
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/barrel/variants",
     "value": 20//glbaf
   }
-]
+]]
