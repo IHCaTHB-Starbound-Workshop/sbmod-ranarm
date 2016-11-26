@@ -1,0 +1,27 @@
+{
+  // TManufacturers touch integration
+
+  "manufacturerName" : "ranarm",
+  "friendlyName" : "Ranarm Inc.",
+  
+  "rangedPalette" : "/items/active/weapons/colors/ranged.weaponcolors",
+  "meleePalette" : "/items/active/weapons/colors/melee.weaponcolors",
+  
+  "prefix" : [
+    "Neat ",
+	"Cool ",
+	"Great ",
+	"Amazing! ",
+	"Spacetastic "
+  ],
+  
+  "defaultElementalType" : "physical", 
+  "elementalType" : [
+    "physical",
+	"electric",
+	"explosive",
+	"fire",
+	"ice",
+	"poison"
+  ]
+}
