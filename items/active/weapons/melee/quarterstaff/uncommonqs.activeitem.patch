@@ -1,6 +1,18 @@
 [[
   {
     "op": "test",
+    "path": "/builderConfig/0/animationParts/handle/path",
+    "value": "handle/<variant>.png"
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/animationParts/handle/path",
+    "value": "/items/active/weapons/melee/spear/handle/<variant>.png"
+  }
+],
+[
+  {
+    "op": "test",
     "path": "/builderConfig/0/manufacturer"
   },
   {
