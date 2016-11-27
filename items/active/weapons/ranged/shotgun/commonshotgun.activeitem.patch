@@ -13,12 +13,12 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/butt/variants",
-    "value": 20//sgbf
+    "value": 21//sgbf
   },
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/middle/variants",
-    "value": 20//sgmf
+    "value": 21//sgmf
   }
 ],
 [
@@ -30,7 +30,7 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/barrel/variants",
-    "value": 27//sgbasnf
+    "value": 28//sgbasnf
   }
 ],
 [
@@ -38,11 +38,11 @@
     "op": "test",
     "path": "/builderConfig/0/animationParts/barrel/variants",
     "inverse": true,
-    "value": 27//sgbasnf
+    "value": 28//sgbasnf
   },
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/barrel/variants",
-    "value": 20//sgbaf
+    "value": 21//sgbaf
   }
 ]]

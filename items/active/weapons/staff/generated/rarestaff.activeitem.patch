@@ -7,6 +7,6 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/crown/variants",
-    "value": 9//staffcf
+    "value": 8//staffcf
   }
 ]

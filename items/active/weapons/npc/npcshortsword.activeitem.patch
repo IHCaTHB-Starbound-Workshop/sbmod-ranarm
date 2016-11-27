@@ -2,11 +2,11 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/handle/variants",
-    "value": 37//sshf
+    "value": 39//sshf
   },
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/blade/variants",
-    "value": 49//ssbf
+    "value": 54//ssbf
   }
 ]

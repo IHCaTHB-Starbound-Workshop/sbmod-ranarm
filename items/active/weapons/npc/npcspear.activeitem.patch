@@ -7,6 +7,6 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/blade/variants",
-    "value": 62//sbf
+    "value": 64//sbf
   }
 ]
