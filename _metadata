@@ -2,7 +2,10 @@
   "author" : "IHCaTHB, tealsummernights",
   "description" : "^#5aa9d6;Collection of additions to randomized weapon generation.^reset;
 
-Currently features broadsword (tons), dagger, staff, and wand pieces by tealsummernights; spear, hammer, axe pieces by ihcathb; more to come.
+Currently features
+==========
+-tealsummernights: axe, hammer and spear blades, broadsword, shortsword, dagger, staff, wand, grenade launcher, assault rifle, sniper rifle and rocket launcher pieces
+-ihcathb: axe blades, spear, hammer, broadsword, shortsword, dagger, pistol, machine pistol, shotgun, grenade launcher, assault rifle, sniper rifle and rocket launcher pieces
 
 For more, or to contribute, follow links from the steam page.",
   "friendlyName" : "Open Armory",
@@ -11,5 +14,5 @@ For more, or to contribute, follow links from the steam page.",
   "name" : "RANARM.IHC",
   "requires" : [],
   "steamContentId" : "802382977",
-  "version" : "0.6"
+  "version" : "0.7"
 }

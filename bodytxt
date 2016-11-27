@@ -4,7 +4,10 @@
 
 ^#5aa9d6;Collection of additions to randomized weapon generation.^reset;
 
-Currently features broadsword (tons), dagger, staff, and wand pieces by tealsummernights; spear, hammer, axe pieces by ihcathb; more to come.
+Currently features
+==========
+-tealsummernights: axe, hammer and spear blades, broadsword, shortsword, dagger, staff, wand, grenade launcher, assault rifle, sniper rifle and rocket launcher pieces
+-ihcathb: axe blades, spear, hammer, broadsword, shortsword, dagger, pistol, machine pistol, shotgun, grenade launcher, assault rifle, sniper rifle and rocket launcher pieces
 
 For more, or to contribute, follow links from the steam page.
 
@@ -18,12 +21,14 @@ Open Armory, a community random weapon mod
 
 Would you like your weapon designs featured in this mod? Please share your work with us on the [URL=http://steamcommunity.com/workshop/filedetails/discussion/802382977/208684375425094063/]steam suggestions thread[/URL], or in the [url=community.playstarbound.com/threads/126973/]forum thread![/url]
 
-Currently features broadsword (tons), dagger, staff, and wand pieces by tealsummernights; spear, hammer, axe pieces by ihcathb; more to come.
+Currently features a lot of stuff.
+-tealsummernights: axe, hammer and spear blades, broadsword, shortsword, dagger, staff, wand, grenade launcher, assault rifle, sniper rifle and rocket launcher pieces
+-ihcathb: axe blades, spear, hammer, broadsword, shortsword, dagger, pistol, machine pistol, shotgun, grenade launcher, assault rifle, sniper rifle and rocket launcher pieces
 
-Integrated with [url=http://steamcommunity.com/sharedfiles/filedetails/?id=780877247]Quarterstaff Armory[/url], [url=http://steamcommunity.com/sharedfiles/filedetails/?id=780443241]Snub-Nose Armory[/url], [url=http://steamcommunity.com/sharedfiles/filedetails/?id=760396113]Manufacturer's Touch[/url], and [url=community.playstarbound.com/resources/4285/]Expanded Weapon Generation.[/url]
+Integrated with [url=http://steamcommunity.com/sharedfiles/filedetails/?id=780877247]Quarterstaff Armory[/url], [url=http://steamcommunity.com/sharedfiles/filedetails/?id=780443241]Snub-Nose Armory[/url], [url=http://steamcommunity.com/sharedfiles/filedetails/?id=760396113]Manufacturer's Touch[/url], and [url=community.playstarbound.com/resources/4285/]Expanded Weapon Generation![/url]
 
 [url=community.playstarbound.com/threads/124193/]IHARTS MEGATHREAD[/url]
-Find the server version on [url=https://github.com/IsaacHart/sbmod-ranarm/releases/0.6]git.[/url]
+Find the server version on [url=https://github.com/IsaacHart/sbmod-ranarm/releases/0.7]git.[/url]
 
 ######
 #forum
@@ -31,7 +36,9 @@ Find the server version on [url=https://github.com/IsaacHart/sbmod-ranarm/releas
 
 Collection of additions to randomized weapon generation.
 
-Currently features broadsword (tons), dagger, staff, and wand pieces by [USER=720151]tealsummernights[/USER]; spear, hammer, axe pieces by [USER=714236]ihcathb[/USER]; more to come.
+Currently features a lot of stuff.
+-[USER=720151]tealsummernights[/USER]: axe, hammer and spear blades, broadsword, shortsword, dagger, staff, wand, grenade launcher, assault rifle, sniper rifle and rocket launcher pieces
+-[USER=714236]ihcathb[/USER]: axe blades, spear, hammer, broadsword, shortsword, dagger, pistol, machine pistol, shotgun, grenade launcher, assault rifle, sniper rifle and rocket launcher pieces
 
 He and I will be working to make this a successful community mod.
 If you would like to contribute to the mod simply share in the discussion section:
@@ -59,4 +66,4 @@ PERMISSIONS: granted per cc license, included in download, see attribution file 
 #megathread
 ###########
 
-Open Armory (0.6) [URL='http://steamcommunity.com/sharedfiles/filedetails/?id=802382977']steam[/URL] | [URL='http://community.playstarbound.com/resources/4326/']forum[/URL] | [URL='https://github.com/IsaacHart/sbmod-ranarm/releases']github[/URL] | [URL='https://github.com/IsaacHart/sbmod-ranarm/releases/download/0.6/sbmod-ranarm-0.6.pak']direct[/URL]
+Open Armory (0.7) [URL='http://steamcommunity.com/sharedfiles/filedetails/?id=802382977']steam[/URL] | [URL='http://community.playstarbound.com/resources/4326/']forum[/URL] | [URL='https://github.com/IsaacHart/sbmod-ranarm/releases']github[/URL] | [URL='https://github.com/IsaacHart/sbmod-ranarm/releases/download/0.7/sbmod-ranarm-0.7.pak']direct[/URL]
