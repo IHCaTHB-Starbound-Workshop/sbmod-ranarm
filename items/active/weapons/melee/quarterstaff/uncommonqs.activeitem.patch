@@ -27,4 +27,67 @@
     "path": "/builderConfig/0/animationParts/handle/variants",
     "value": 53//shf
   }
+],
+[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/animationParts/blade/path",
+    "value": "qs/<variant>.png",
+    "inverse": true
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/animationParts/blade/variants",
+    "value": 53//shf
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/1/animationParts/blade/variants",
+    "value": 53//shf
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/1/animationParts/handle/variants",
+    "value": 53//shf
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/2/animationParts/blade/variants",
+    "value": 57//hhf
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/2/animationParts/handle/variants",
+    "value": 57//hhf
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/3/animationParts/blade/variants",
+    "value": 15//staffhf
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/3/animationParts/handle/variants",
+    "value": 15//staffhf
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/4/animationParts/blade/variants",
+    "value": 37//sshf
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/4/animationParts/handle/variants",
+    "value": 53//shf
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/5/animationParts/blade/variants",
+    "value": 34//dhf
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/5/animationParts/handle/variants",
+    "value": 53//shf
+  }
 ]]

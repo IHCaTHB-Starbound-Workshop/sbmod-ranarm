@@ -12,12 +12,27 @@
 [
   {
     "op": "replace",
-    "path": "/builderConfig/0/animationParts/blade/variants",
+    "path": "/builderConfig/0/animationParts/handle/variants",
     "value": 15//staffhf
   },
   {
     "op": "replace",
-    "path": "/builderConfig/0/animationParts/handle/variants",
+    "path": "/builderConfig/1/animationParts/blade/variants",
+    "value": 12//whf
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/1/animationParts/handle/variants",
+    "value": 12//whf
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/2/animationParts/blade/variants",
+    "value": 15//staffhf
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/2/animationParts/handle/variants",
     "value": 12//whf
   }
 ]]

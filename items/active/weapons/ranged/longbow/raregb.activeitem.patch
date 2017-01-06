@@ -1,176 +1,28 @@
-{
-  "itemName" : "raregb",
-  "price" : 1170,
-  "maxStack" : 1,
-  "rarity" : "rare",
-  "description" : "A bow and arrow of unknown origin.",
-  "shortdescription" : "Rare Greatbow",
-  "tooltipKind" : "bow",
-  "category" : "bow",
-  "twoHanded" : true,
-  "itemTags" : ["weapon","ranged","bow"],
-  "radioMessagesOnPickup" : [ "pickupbow" ],
-
-  "animation" : "/items/active/weapons/bow/bow.animation",
-  "animationParts" : { },
-  "animationCustom" : {
-    "animatedParts" : {
-      "parts" : {
-        "bow" : {
-          "properties" : {
-            "zLevel" : 0,
-            "offset" : [0.5,0],
-            "centered" : true,
-            "image" : "<partImage>",
-            "transformationGroups" : ["weapon"]
-          }
-        },
-        "bow0" : {
-          "properties" : {
-            "centered" : true,
-            "zLevel" : 0,
-            "offset" : [0.5,0],
-            "image" : "<partImage>",
-            "transformationGroups" : ["weapon"]
-          }
-        },
-        "handle" : {
-          "properties" : {
-            "centered" : true,
-            "zLevel" : 2,
-            "offset" : [0.5,0],
-            "image" : "<partImage>",
-            "transformationGroups" : ["weapon"]
-          }
-        },
-        "arrow" : {
-          "properties" : {
-            "centered" : true,
-            "zLevel" : 1,
-            "image" : "<partImage>:<drawFrame>",
-            "transformationGroups" : ["weapon"]
-          }
-        }
-      }
-    },
-    "sounds" : {
-      "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
-      "release" : [ "/sfx/gun/bow_loose.ogg" ],
-      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
-    }
+[[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer"
   },
-
-  "scripts" : ["/items/active/weapons/bow/bow.lua"],
-  "critChance" : 10,
-  "critBonus" : 6,
-  "primaryAbilityType" : "bowshot",
-  "primaryAbility" : {
-    "cooldownTime" : 0.6,
-    "energyPerShot" : 40,
-    "powerProjectileTime" : [1.2, 1.5],
-    "projectileParameters" : {
-      "speed" : 90,
-      "power" : 9.5
-    }
+  {
+    "op": "add", 
+    "path": "/builderConfig/0/manufacturer/-",
+    "value": "ranarm"
+  }
+],
+[
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/animationParts/bow0/variants",
+    "value": 56//ahf
   },
-
-  "altAbilityType" : "zenshot",
-  "altAbility" : {
-    "projectileParameters" : {
-      "speed" : 55,
-      "power" : 11.125
-    }
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/animationParts/bow/variants",
+    "value": 56//ahf
   },
-
-  "builder" : "/items/buildscripts/buildrandbow.lua",
-  "builderConfig" : [{
-    "nameGenerator" : "bownames.config:nameGen",
-    "elementalType" : [
-      "fire",
-      "ice",
-      "electric",
-      "poison"
-    ],
-    "elementalConfig" : {
-      "fire" : {
-        "primaryAbility" : {
-          "projectileType" : "flamearrow",
-          "powerProjectileType" : "chargedflamearrow",
-          "projectileParameters" : {
-            "statusEffects" : ["burning"]
-          }
-        },
-        "altAbility" : {
-          "projectileType" : "flamearrow",
-          "projectileParameters" : {
-            "statusEffects" : ["burning"]
-          }
-        }
-      },
-      "ice" : {
-        "primaryAbility" : {
-          "projectileType" : "icearrow",
-          "powerProjectileType" : "chargedicearrow",
-          "projectileParameters" : {
-            "statusEffects" : ["frostslow"]
-          }
-        },
-        "altAbility" : {
-          "projectileType" : "icearrow",
-          "projectileParameters" : {
-            "statusEffects" : ["frostslow"]
-          }
-        }
-      },
-      "poison" : {
-        "primaryAbility" : {
-          "projectileType" : "poisonarrow",
-          "powerProjectileType" : "chargedpoisonarrow"
-
-        },
-        "altAbility" : {
-          "projectileType" : "poisonarrow"
-        }
-      },
-      "electric" : {
-        "primaryAbility" : {
-          "projectileType" : "purplearrow",
-          "powerProjectileType" : "statchargedpurplearrow",
-          "projectileParameters" : {
-            "statusEffects" : ["electrified"]
-          }
-        },
-        "altAbility" : {
-          "projectileType" : "purplearrow",
-          "projectileParameters" : {
-            "statusEffects" : ["electrified"]
-          }
-        }
-      }
-    },
-    "animationParts" : {
-      "bow0" : {
-        "path" : "/items/active/weapons/melee/axe/handle/<variant>.png?crop=0;0;24;60?flipy",
-        "variants" : 56,
-        "paletteSwap" : true
-      },
-      "bow" : {
-        "path" : "/items/active/weapons/melee/axe/handle/<variant>.png?crop=0;0;24;60",
-        "variants" : 56,
-        "paletteSwap" : true
-      },
-      "handle" : {
-        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?crop=0;0;20;62?flipx?replace;676767=00000000;b1b1b1=00000000;e9e9e9=00000000",
-        "variants" : 59,
-        "paletteSwap" : true
-      },
-      "arrow" : {
-        "path" : "arrow/arrow.png",
-        "paletteSwap" : false
-      }
-    },
-    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
-    "iconDrawables" : [ "bow", "bow0", "handle" ]
-  }]
-}
-
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/animationParts/handle/variants",
+    "value": 60//abf
+  }
+]]
