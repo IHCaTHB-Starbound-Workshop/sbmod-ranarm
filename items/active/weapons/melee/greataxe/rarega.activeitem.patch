@@ -1,0 +1,228 @@
+{
+  "itemName" : "rarega",
+  "price" : 1080,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A very large, heavy axe",
+  "shortdescription" : "Rare Great-Axe",
+  "tooltipKind" : "sword",
+  "category" : "axe",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","axe"],
+
+  "animation" : "/items/active/weapons/melee/axe/axe.animation",
+  "animationParts" : { },
+  "animationCustom" : {
+   "animatedParts" : {
+    "parts" : {
+      "blade" : {
+        "properties" : {
+          "offset" : [0, 0.5]
+        }
+      },
+      "blade0" : {
+        "properties" : {
+          "zLevel" : 0,
+          "centered" : true,
+          "offset" : [0, 0.5],
+          "image" : "<partImage><paletteSwaps>",
+          "transformationGroups" : ["weapon"],
+          "rotationCenter" : [0, 0]
+        },
+
+        "partStates" : {
+          "weapon" : {
+            "fire" : {
+              "properties" : {
+                "damageArea" : [[-1.0, -0.75], [-1.0, 0.5], [1.625, 0.75], [1.625, -1.25]]
+              }
+            }
+          }
+        }
+      },
+      "blade1" : {
+        "properties" : {
+          "zLevel" : 3,
+          "centered" : true,
+          "offset" : [0, 0.5],
+          "image" : "<partImage><paletteSwaps>",
+          "transformationGroups" : ["weapon"],
+          "rotationCenter" : [0, 0]
+        },
+
+        "partStates" : {
+          "weapon" : {
+            "fire" : {
+              "properties" : {
+                "damageArea" : [[-1.0, -0.75], [-1.0, 0.5], [1.625, 0.75], [1.625, -1.25]]
+              }
+            }
+          }
+        }
+      },
+      "handle" : {
+        "properties" : {
+          "offset" : [0, 0.5],
+          "zLevel" : 2
+        }
+      },
+      "swoosh" : {
+        "properties" : {
+          "offset" : [0, 1.0]
+        }
+      }
+    }
+   }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "critChance" : 10,
+  "critBonus" : 6,
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : [1.0, 1.2],
+    "baseDps" : [12.5, 13.5],
+    "damageConfig" : {
+      "damageSourceKind" : "<elementalType>axe"
+    },
+    "stances" : {
+      "idle" : {
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "weaponOffset" : [0, 1.5]
+      },
+      "windup" : {
+        "weaponOffset" : [0, 2.0],
+        "twoHanded" : true,
+        "allowFlip" : true,
+        "allowRotate" : false,
+        "bounceWeaponAngle" : [
+          [0.75, "linear", 20, 25],
+          [1.0, "cos", 25, 30]
+        ]
+      },
+      "fire" : {
+        "weaponOffset" : [0, 2.25],
+        "twoHanded" : true,
+        "allowFlip" : false,
+        "allowRotate" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+    "nameGenerator" : "/items/active/weapons/melee/axe/axenames.config:nameGen",
+    "elementalType" : [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ],
+    "elementalConfig" : {
+      "fire" : {
+        "primaryAbility" : { "damageConfig" : { "statusEffects" : [ "burning" ] } },
+        "fireSounds" : [ [ "/sfx/melee/swing_hammer_fire1.ogg", "/sfx/melee/swing_hammer_fire2.ogg", "/sfx/melee/swing_hammer_fire3.ogg" ] ]
+      },
+      "ice" : {
+        "primaryAbility" : { "damageConfig" : { "statusEffects" : [ "frostslow" ] } },
+        "fireSounds" : [ [ "/sfx/melee/swing_hammer_ice1.ogg", "/sfx/melee/swing_hammer_ice2.ogg", "/sfx/melee/swing_hammer_ice3.ogg" ] ]
+      },
+      "poison" : {
+        "primaryAbility" : { "damageConfig" : { "statusEffects" : [ "weakpoison" ] } },
+        "fireSounds" : [ [ "/sfx/melee/swing_hammer_poison1.ogg", "/sfx/melee/swing_hammer_poison2.ogg", "/sfx/melee/swing_hammer_poison3.ogg" ] ]
+      },
+      "electric" : {
+        "primaryAbility" : { "damageConfig" : { "statusEffects" : [ "electrified" ] } },
+        "fireSounds" : [ [ "/sfx/melee/swing_hammer_electric1.ogg", "/sfx/melee/swing_hammer_electric2.ogg", "/sfx/melee/swing_hammer_electric3.ogg" ] ]
+      }
+    },
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;-48;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?blendmult=/items/active/weapons/melee/mask/masktrans.png;12;0?crop=44;112;72;192?replace;890900=00000000;e5323b=00000000;ff7060=00000000;0964a0=00000000;2992bc=00000000;60b9ff=00000000;676767=b1b1b1?border=1;676767;00000000",
+        "variants" : 59,
+        "paletteSwap" : true
+      },
+      "blade0" : {
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;-4;0?flipxy?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?blendmult=/items/active/weapons/melee/mask/masktrans.png;28;0?blendmult=/items/active/weapons/melee/mask/masktrans.png;-56;0?crop=44;126;72;192?replace;890900=00000000;e5323b=00000000;ff7060=00000000;0964a0=00000000;2992bc=00000000;60b9ff=00000000;676767=b1b1b1?border=1;676767;00000000",
+        "variants" : 59,
+        "paletteSwap" : true
+      },
+      "blade1" : {
+        "path" : "/items/active/weapons/melee/hammer/blade/<variant>.png?crop=5;0;19;64?flipx?replace;676767=00000000;b1b1b1=e5323b;e9e9e9=ff7060;890900=00000000?border=1;890900;00000000",
+        "variants" : 55,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png?crop=2;0;24;64",
+        "variants" : 54,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "blinkexplosion",
+      "shockwave",
+      "elementalaura",
+      "elementalpillar"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [  "handle" , "blade0" , "blade", "blade1" ]
+  },
+  {
+    "nameGenerator" : "/items/active/weapons/melee/axe/axenames.config:nameGen",
+    "elementalType" : [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ],
+    "elementalConfig" : {
+      "fire" : {
+        "primaryAbility" : { "damageConfig" : { "statusEffects" : [ "burning" ] } },
+        "fireSounds" : [ [ "/sfx/melee/swing_hammer_fire1.ogg", "/sfx/melee/swing_hammer_fire2.ogg", "/sfx/melee/swing_hammer_fire3.ogg" ] ]
+      },
+      "ice" : {
+        "primaryAbility" : { "damageConfig" : { "statusEffects" : [ "frostslow" ] } },
+        "fireSounds" : [ [ "/sfx/melee/swing_hammer_ice1.ogg", "/sfx/melee/swing_hammer_ice2.ogg", "/sfx/melee/swing_hammer_ice3.ogg" ] ]
+      },
+      "poison" : {
+        "primaryAbility" : { "damageConfig" : { "statusEffects" : [ "weakpoison" ] } },
+        "fireSounds" : [ [ "/sfx/melee/swing_hammer_poison1.ogg", "/sfx/melee/swing_hammer_poison2.ogg", "/sfx/melee/swing_hammer_poison3.ogg" ] ]
+      },
+      "electric" : {
+        "primaryAbility" : { "damageConfig" : { "statusEffects" : [ "electrified" ] } },
+        "fireSounds" : [ [ "/sfx/melee/swing_hammer_electric1.ogg", "/sfx/melee/swing_hammer_electric2.ogg", "/sfx/melee/swing_hammer_electric3.ogg" ] ]
+      }
+    },
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;-48;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?blendmult=/items/active/weapons/melee/mask/masktrans.png;12;0?crop=44;112;72;192?replace;890900=00000000;e5323b=00000000;ff7060=00000000;0964a0=00000000;2992bc=00000000;60b9ff=00000000;b1b1b1=00000000;676767=b1b1b1?border=1;676767;00000000",
+        "variants" : 59,
+        "paletteSwap" : true
+      },
+      "blade0" : {
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;-6;0?flipxy?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?blendmult=/items/active/weapons/melee/mask/masktrans.png;28;0?blendmult=/items/active/weapons/melee/mask/masktrans.png;-56;0?crop=44;126;72;192?replace;890900=00000000;e5323b=00000000;ff7060=00000000;0964a0=00000000;2992bc=00000000;60b9ff=00000000;b1b1b1=00000000;676767=b1b1b1?border=1;676767;00000000",
+        "variants" : 59,
+        "paletteSwap" : true
+      },
+      "blade1" : {
+        "path" : "/items/active/weapons/melee/hammer/blade/<variant>.png?addmask=/items/active/weapons/melee/hammer/blade/<variant>.png;0;-2?crop=5;4;19;64?replace;676767=00000000;b1b1b1=e5323b;e9e9e9=ff7060;890900=00000000?border=1;890900;00000000",
+        "variants" : 55,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png?crop=2;0;24;64",
+        "variants" : 54,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "blinkexplosion",
+      "shockwave",
+      "elementalaura",
+      "elementalpillar"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [  "handle" , "blade0" , "blade", "blade1" ]
+  }]
+}

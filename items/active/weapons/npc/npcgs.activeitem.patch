@@ -1,0 +1,190 @@
+{
+  "itemName" : "npcgs",
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A very powerful two-handed sword.",
+  "shortdescription" : "NPC Great-Sword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+  "critChance" : 6,
+  "critBonus" : 3,
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : [0.8, 1],
+    "baseDps" : [8, 9],
+    "stances" : {
+      "idle" : {
+        "weaponOffset":[0,0]
+      },
+      "windup1" : {
+        "duration" : 0.15,
+        "weaponOffset":[0,1.75]
+      },
+      "preslash1" : {
+        "duration" : 0.030,
+        "weaponOffset":[0,1.75]
+      },
+      "fire1" : {
+        "duration" : 0.2,
+        "weaponOffset":[0,1.75]
+      },
+      "wait1" : {
+        "duration" : 0.25,
+        "weaponOffset":[0,1.75]
+      },
+      "windup2" : {
+        "duration" : 0.2,
+        "weaponOffset":[0,1.75]
+      },
+      "fire2" : {
+        "duration" : 0.25,
+        "weaponOffset":[0,1.75]
+      },
+      "wait2" : {
+        "duration" : 0.25,
+        "weaponOffset":[0,1.75]
+      },
+      "windup3" : {
+        "duration" : 0.2,
+        "weaponOffset":[0,1.75]
+      },
+      "fire3" : {
+        "duration" : 0.35,
+        "weaponOffset":[0,1.75]
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/broadsword/blade/<variant>.png",
+        "variants" : 46,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/hammer/handle/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-64?blendmult=/items/active/weapons/melee/mask/masktrans.png;-24;0?crop=0;0;26;92",
+        "variants" : 54,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "bladecharge",
+      "downstab",
+      "parry",
+      "risingslash",
+      "spinslash",
+      "superspinslash"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "blade" , "handle"]
+  },
+  {//gs1a
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/broadsword/blade/<variant>.png?replace;676767=00000000?border=1;676767;00000000",
+        "variants" : 46,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/hammer/handle/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-64?blendmult=/items/active/weapons/melee/mask/masktrans.png;-24;0?crop=0;0;26;92",
+        "variants" : 54,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "bladecharge",
+      "downstab",
+      "parry",
+      "risingslash",
+      "spinslash",
+      "superspinslash"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "blade" , "handle"]
+  },
+  {//gs1b
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/broadsword/blade/<variant>.png?replace;b1b1b1=00000000;676767=b1b1b1?border=1;676767;00000000",
+        "variants" : 46,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/hammer/handle/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-64?blendmult=/items/active/weapons/melee/mask/masktrans.png;-24;0?crop=0;0;26;92",
+        "variants" : 54,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "bladecharge",
+      "downstab",
+      "parry",
+      "risingslash",
+      "spinslash",
+      "superspinslash"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "blade" , "handle"]
+  },
+  {//gs1c
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/broadsword/blade/<variant>.png?replace;b1b1b1=00000000;676767=b1b1b1?border=1;b1b1b1;00000000?border=1;676767;00000000",
+        "variants" : 46,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/hammer/handle/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-64?blendmult=/items/active/weapons/melee/mask/masktrans.png;-24;0?crop=0;0;26;92",
+        "variants" : 54,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "bladecharge",
+      "downstab",
+      "parry",
+      "risingslash",
+      "spinslash",
+      "superspinslash"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "blade" , "handle"]
+  },
+  {//new based on gs1a
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/broadsword/blade/<variant>.png?replace;676767=b1b1b1?border=1;676767;00000000",
+        "variants" : 46,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/hammer/handle/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-64?blendmult=/items/active/weapons/melee/mask/masktrans.png;-24;0?crop=0;0;26;92",
+        "variants" : 54,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "bladecharge",
+      "downstab",
+      "parry",
+      "risingslash",
+      "spinslash",
+      "superspinslash"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "blade" , "handle"]
+  }]
+}

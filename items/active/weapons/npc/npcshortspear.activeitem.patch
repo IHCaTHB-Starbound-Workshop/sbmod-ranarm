@@ -1,0 +1,79 @@
+{
+  "itemName" : "npcshortspear",
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "This spear is perfect for wrecking enemies at short to mid-range.",
+  "shortdescription" : "NPC Short Spear",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : { },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "swoosh" : {
+          "properties" : {
+            "offset" : [1.5,0]
+          }
+        }
+      }
+    } 
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+  "critChance" : 4,
+  "critBonus" : 7, 
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : [0.72, 1.05],
+    "baseDps" : [4, 6],
+    "damageConfig" : {
+      "knockbackRange" : [15, 20]
+    },
+    "stances" : {
+      "idle" : {
+        "twoHanded" : false,
+        "weaponOffset" : [0, 1.0]
+      },
+      "windup" : {
+        "duration" : 0.08,
+        "twoHanded" : false,
+        "weaponOffset" : [0, 1.0]
+      },
+      "fire" : {
+        "duration" : 0.25,
+        "twoHanded" : false
+      },
+      "hold" : {
+        "twoHanded" : false
+      }
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/spear/blade/<variant>.png?crop=0;28;24;64",
+        "variants" : 50,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/spear/handle/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-32",
+        "variants" : 50,
+        "paletteSwap" : true
+      }
+    },
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "handle", "blade" ]
+  }]
+}
