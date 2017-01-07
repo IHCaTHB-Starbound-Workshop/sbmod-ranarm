@@ -13,12 +13,12 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/butt/variants",
-    "value": 22//arbf
+    "value": 23//arbf
   },
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/middle/variants",
-    "value": 22//armf
+    "value": 23//armf
   }
 ],
 [
@@ -30,7 +30,7 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/barrel/variants",
-    "value": 29//arbasnf
+    "value": 30//arbasnf
   }
 ],
 [
@@ -38,11 +38,11 @@
     "op": "test",
     "path": "/builderConfig/0/animationParts/barrel/variants",
     "inverse": true,
-    "value": 29//arbasnf
+    "value": 30//arbasnf
   },
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/barrel/variants",
-    "value": 22//arbaf
+    "value": 23//arbaf
   }
 ]]

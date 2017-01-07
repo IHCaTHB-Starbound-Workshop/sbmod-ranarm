@@ -25,7 +25,7 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/handle/variants",
-    "value": 53//shf
+    "value": 54//shf
   }
 ],
 [
@@ -38,27 +38,27 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/blade/variants",
-    "value": 53//shf
+    "value": 54//shf
   },
   {
     "op": "replace",
     "path": "/builderConfig/1/animationParts/blade/variants",
-    "value": 53//shf
+    "value": 54//shf
   },
   {
     "op": "replace",
     "path": "/builderConfig/1/animationParts/handle/variants",
-    "value": 53//shf
+    "value": 54//shf
   },
   {
     "op": "replace",
     "path": "/builderConfig/2/animationParts/blade/variants",
-    "value": 57//hhf
+    "value": 61//hhf
   },
   {
     "op": "replace",
     "path": "/builderConfig/2/animationParts/handle/variants",
-    "value": 57//hhf
+    "value": 61//hhf
   },
   {
     "op": "replace",
@@ -73,31 +73,31 @@
   {
     "op": "replace",
     "path": "/builderConfig/4/animationParts/blade/variants",
-    "value": 40//bshf
+    "value": 52//bshf
   },
   {
     "op": "replace",
     "path": "/builderConfig/4/animationParts/handle/variants",
-    "value": 53//shf
+    "value": 54//shf
   },
   {
     "op": "replace",
     "path": "/builderConfig/5/animationParts/blade/variants",
-    "value": 37//sshf
+    "value": 38//sshf
   },
   {
     "op": "replace",
     "path": "/builderConfig/5/animationParts/handle/variants",
-    "value": 53//shf
+    "value": 54//shf
   },
   {
     "op": "replace",
     "path": "/builderConfig/6/animationParts/blade/variants",
-    "value": 34//dhf
+    "value": 33//dhf
   },
   {
     "op": "replace",
     "path": "/builderConfig/6/animationParts/handle/variants",
-    "value": 53//shf
+    "value": 54//shf
   }
 ]]

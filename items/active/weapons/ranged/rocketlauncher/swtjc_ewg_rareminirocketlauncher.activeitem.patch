@@ -2,12 +2,12 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/butt/variants",
-    "value": 22//rlbf
+    "value": 23//rlbf
   },
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/middle/variants",
-    "value": 22//rlmf
+    "value": 23//rlmf
   }
 ],
 [

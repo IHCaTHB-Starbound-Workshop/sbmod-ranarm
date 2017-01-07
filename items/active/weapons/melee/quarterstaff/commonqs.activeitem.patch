@@ -25,7 +25,7 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/handle/variants",
-    "value": 53//shf
+    "value": 54//shf
   }
 ],
 [
@@ -38,17 +38,17 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/blade/variants",
-    "value": 53//shf
+    "value": 54//shf
   },
   {
     "op": "replace",
     "path": "/builderConfig/1/animationParts/blade/variants",
-    "value": 53//shf
+    "value": 54//shf
   },
   {
     "op": "replace",
     "path": "/builderConfig/1/animationParts/handle/variants",
-    "value": 53//shf
+    "value": 54//shf
   },
   {
     "op": "replace",
@@ -63,11 +63,11 @@
   {
     "op": "replace",
     "path": "/builderConfig/3/animationParts/blade/variants",
-    "value": 34//dhf
+    "value": 33//dhf
   },
   {
     "op": "replace",
     "path": "/builderConfig/3/animationParts/handle/variants",
-    "value": 53//shf
+    "value": 54//shf
   }
 ]]

@@ -19,7 +19,7 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/handle/variants",
-    "value": 53//shf
+    "value": 54//shf
   },
   {
     "op": "replace",

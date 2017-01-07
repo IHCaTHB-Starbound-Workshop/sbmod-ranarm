@@ -32,6 +32,6 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/barrel/variants",
-    "value": 21//sgbaf
+    "value": 22//sgbaf
   }
 ]]

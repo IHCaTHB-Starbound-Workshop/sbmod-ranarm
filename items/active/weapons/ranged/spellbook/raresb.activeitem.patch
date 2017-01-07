@@ -13,6 +13,6 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/handle/variants",
-    "value": 60//hbf
+    "value": 77//hbf
   }
 ]]
