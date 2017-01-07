@@ -2,7 +2,7 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/handle/variants",
-    "value": 56//ahf
+    "value": 67//ahf
   },
   {
     "op": "replace",

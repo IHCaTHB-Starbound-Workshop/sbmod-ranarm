@@ -13,11 +13,11 @@
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/bow0/variants",
-    "value": 56//ahf
+    "value": 67//ahf
   },
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/bow/variants",
-    "value": 56//ahf
+    "value": 67//ahf
   }
 ]]
