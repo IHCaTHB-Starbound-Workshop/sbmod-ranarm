@@ -77,4 +77,14 @@
     "path": "/builderConfig/6/animationParts/handle/variants",
     "value": 54//shf
   }
+],[
+  {
+    "op": "test",
+    "path": "/QS0"
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/7/animationParts/handle/variants",
+    "value": 54//shf
+  }
 ]]

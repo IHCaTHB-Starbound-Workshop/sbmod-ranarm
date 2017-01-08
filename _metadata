@@ -9,10 +9,10 @@ Currently features
 
 For more, or to contribute, follow links from the steam page.",
   "friendlyName" : "Open Armory",
-  "includes" : ["SNARM.IHC", "QSARM.IHC", "QS-MT.IHC", "GRANDARM.IHC", "Expanded Weapon Generation", "EWGFIX.IHC", "kit_manufacturer", "FrackinUniverse"],
+  "includes" : ["SNARM.IHC", "QSARM.IHC", "QS-MT.IHC", "GRANDARM.IHC","GRANDARM-QS.IHC", "Expanded Weapon Generation", "EWGFIX.IHC", "kit_manufacturer", "FrackinUniverse"],
   "link" : "steam://url/CommunityFilePage/802382977",
   "name" : "RANARM.IHC",
   "requires" : [],
   "steamContentId" : "802382977",
-  "version" : "0.8"
+  "version" : "0.8a"
 }
