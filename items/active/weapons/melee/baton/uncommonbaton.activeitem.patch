@@ -7,12 +7,26 @@
     "op": "add", 
     "path": "/builderConfig/0/manufacturer/-",
     "value": "ranarm"
+  },
+  {
+    "op": "add", 
+    "path": "/builderConfig/1/manufacturer/-",
+    "value": "ranarm"
   }
-],
-[
+],[
   {
     "op": "replace",
-    "path": "/builderConfig/0/animationParts/handle/variants",
+    "path": "/builderConfig/0/animationParts/blade/variants",
     "value": 12//whf
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/1/animationParts/handle/variants",
+    "value": 33//dhf
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/1/animationParts/handle/variants",
+    "value": 33//dhf
   }
 ]]

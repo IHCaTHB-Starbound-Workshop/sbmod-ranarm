@@ -1,18 +1,44 @@
+[[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer"
+  },
+  {
+    "op": "add", 
+    "path": "/builderConfig/0/manufacturer/-",
+    "value": "ranarm"
+  },
+  {
+    "op": "add", 
+    "path": "/builderConfig/1/manufacturer/-",
+    "value": "ranarm"
+  },
+  {
+    "op": "add", 
+    "path": "/builderConfig/2/manufacturer/-",
+    "value": "ranarm"
+  }
+],
 [
   {
     "op": "replace",
+    "path": "/builderConfig/0/animationParts/blade/variants",
+    "value": 12//whf
+  },
+  {
+    "op": "replace",
     "path": "/builderConfig/0/animationParts/handle/variants",
-    "value": 15//staffhf
+    "value": 12//whf
   },
   {
     "op": "replace",
     "path": "/builderConfig/1/animationParts/blade/variants",
-    "value": 12//whf
+    "value": 15//staffhf
   },
   {
     "op": "replace",
     "path": "/builderConfig/1/animationParts/handle/variants",
-    "value": 12//whf
+    "value": 33//dhf
   },
   {
     "op": "replace",
@@ -22,6 +48,6 @@
   {
     "op": "replace",
     "path": "/builderConfig/2/animationParts/handle/variants",
-    "value": 12//whf
+    "value": 38//sshf
   }
-]
+]]
