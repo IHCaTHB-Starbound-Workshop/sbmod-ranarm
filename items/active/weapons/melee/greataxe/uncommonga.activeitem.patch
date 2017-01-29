@@ -22,32 +22,7 @@
   },
   {
     "op": "replace",
-    "path": "/builderConfig/0/animationParts/blade1/variants",
-    "value": 77//hbf
-  },
-  {
-    "op": "replace",
     "path": "/builderConfig/0/animationParts/handle/variants",
-    "value": 61//hhf
-  },
-  {
-    "op": "replace",
-    "path": "/builderConfig/1/animationParts/blade/variants",
-    "value": 65//abf
-  },
-  {
-    "op": "replace",
-    "path": "/builderConfig/1/animationParts/blade0/variants",
-    "value": 65//abf
-  },
-  {
-    "op": "replace",
-    "path": "/builderConfig/1/animationParts/blade1/variants",
-    "value": 77//hbf
-  },
-  {
-    "op": "replace",
-    "path": "/builderConfig/1/animationParts/handle/variants",
     "value": 61//hhf
   }
 ]]
