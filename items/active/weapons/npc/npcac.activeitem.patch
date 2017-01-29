@@ -1,4 +1,29 @@
-[
+[[
+  {
+    "op": "test",
+    "path": "/builderConfig/0/manufacturer"
+  },
+  {
+    "op": "add", 
+    "path": "/builderConfig/0/manufacturer/-",
+    "value": "ranarm"
+  },
+  {
+    "op": "add", 
+    "path": "/builderConfig/1/manufacturer/-",
+    "value": "ranarm"
+  },
+  {
+    "op": "add", 
+    "path": "/builderConfig/2/manufacturer/-",
+    "value": "ranarm"
+  },
+  {
+    "op": "add", 
+    "path": "/builderConfig/3/manufacturer/-",
+    "value": "ranarm"
+  }
+],[
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/barrel/variants",
@@ -19,4 +44,4 @@
     "path": "/builderConfig/3/animationParts/barrel/variants",
     "value": 65//abf
   }
-]
+]]

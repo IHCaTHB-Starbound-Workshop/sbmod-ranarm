@@ -8,8 +8,7 @@
     "path": "/builderConfig/0/manufacturer/-",
     "value": "ranarm"
   }
-],
-[
+],[
   {
     "op": "replace",
     "path": "/builderConfig/0/animationParts/blade/variants",

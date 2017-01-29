@@ -7,6 +7,26 @@
     "op": "add", 
     "path": "/builderConfig/0/manufacturer/-",
     "value": "ranarm"
+  },
+  {
+    "op": "add", 
+    "path": "/builderConfig/1/manufacturer/-",
+    "value": "ranarm"
+  },
+  {
+    "op": "add", 
+    "path": "/builderConfig/2/manufacturer/-",
+    "value": "ranarm"
+  },
+  {
+    "op": "add", 
+    "path": "/builderConfig/3/manufacturer/-",
+    "value": "ranarm"
+  },
+  {
+    "op": "add", 
+    "path": "/builderConfig/4/manufacturer/-",
+    "value": "ranarm"
   }
 ],
 [
